@@ -1,0 +1,160 @@
+*{
+    font-family: arial;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+nav {
+    background: #0073B1;
+    padding: 8px;
+    margin-bottom: 5px;
+}
+nav > .search-bar{
+    width: 100%;
+    border: 0px;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    background: #0073B1;
+    padding: 2px;
+    font-size: 1.1em;
+    outline: none;
+}
+::placeholder{
+    color: #fff;
+}
+header{
+    width: 100%;
+}
+header > .background-img {
+    height: 100px;
+    background-image: url('https://static-exp1.licdn.com/sc/h/5qi38njir9vsm46ync2qjvrrs');
+    background-position: center center;
+    background-size: cover;
+}
+.section{
+    display: flex;
+    padding: 10px;
+}
+.section > .yaarme-logo{
+    height: 80px;
+    transform: translateY(-60%);
+}
+.section > div{
+    margin-top: -20px;
+    padding: 5px;
+}
+.tagline{
+    margin-top: -20px;
+    font-size: 1em;
+    padding-left: 10px;
+}
+.links-div{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-div > div > .follow-btn{
+    margin: 5px;
+    width: 120px;
+    height: 30px;
+    background: #0073B1;
+    color: #fff;
+    font-weight: 600;
+    border: 0px;
+    outline: none;
+}
+.links-div > div >.visit-btn{
+    width: 120px;
+    margin: 5px;
+    height: 30px;
+    background: transparent;
+    color: #0073B1;
+    border: 0px;
+    border: 1px solid #0073B1;
+    font-weight: 800;
+}
+.links-div > .see-all > a{
+    font-weight: 600;
+    color: #0073B1;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.left-side > .page-nav > li{
+    padding-top: 8px;
+}
+.left-side > .page-nav > li > a{
+    border-left: 10px solid transparent;
+}
+.left-side > .page-nav > li > a{
+    color: #252525;
+    padding: 3px;
+    font-weight: 600;
+}
+.left-side > .page-nav > li > a:active{
+    color: #0073B1;
+    border-left: 10px solid #0073B1;
+}
+.middle-side{
+    width: 500px;
+}
+.middle-side > .btns-nav > ul {
+    display: flex;
+}
+.middle-side > .btns-nav > ul > li{
+    margin: 5px;
+    padding: 10px;
+    background: #bbbaba;
+    border-radius: 15px;
+}
+.middle-side > .details-card{
+    padding: 5px;
+}
+.middle-side > .details-card > .d-c-header{
+    display: flex;
+    align-items: center;
+}
+.middle-side > .details-card > .d-c-header > img{
+    height: 25px;
+}
+.middle-side > .details-card > .d-c-desc{
+
+}
+.middle-side > .details-card > .d-c-img{
+    width: 20%;
+}
+.middle-side > .details-card > .d-c-img > img{
+    width: 100%;
+}
+
+
+@media (max-width:550px){
+    .section{
+        display: flex;
+        flex-direction: column;
+    }
+    .section > .yaarme-logo{
+        width: 80px;
+    }
+    .section > div{
+        margin-top: -70px;
+    }
+    .links-div > div > .follow-btn {
+        display: none;
+    }
+    .links-div > .see-all{
+        display: none;
+    }
+    .links-div > div > .visit-btn{
+        width: 90vw;
+        color: #fff;
+        background: #0073B1;
+        text-transform: uppercase;
+    }
+}
