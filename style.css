@@ -3,6 +3,8 @@
 }
 a{
     text-decoration: none;
+    opacity: 1;
+    color: #0073B1;
 }
 ul li{
     list-style: none;
@@ -91,7 +93,8 @@ header > .background-img {
     height: fit-content;
 }
 .left-side > .page-nav > li{
-    padding-top: 8px;
+    padding-top: 9px;
+    padding-right: 10px;
     padding-bottom: 5px;
     border-bottom: 1px solid #e0e0e0;
 }
@@ -109,6 +112,13 @@ header > .background-img {
 }
 .middle-side{
     width: 500px;
+}
+.data{
+    opacity: 0.7;
+    display: none;
+}
+.data  table  tr  td{
+    padding-top: 10px;
 }
 .middle-side > .btns-nav > ul {
     display: flex;
@@ -225,7 +235,7 @@ header > .background-img {
         margin-left: -20px;
     }
     .middle-side > .btns-nav > ul > li{
-        padding: 3px;
+        padding: 5px;
         margin: 3px;
     }
 }
