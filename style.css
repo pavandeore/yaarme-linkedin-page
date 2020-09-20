@@ -1,5 +1,5 @@
 *{
-    font-family: arial;
+    font-family: ubuntu;
 }
 a{
     text-decoration: none;
@@ -29,6 +29,8 @@ nav > .search-bar{
 }
 header{
     width: 100%;
+    box-shadow: 0px 3px 3px 0px  #c0c0c0;
+    margin-bottom: 10px;
 }
 header > .background-img {
     height: 100px;
@@ -91,6 +93,7 @@ header > .background-img {
 .left-side{
     background: whitesmoke;
     height: fit-content;
+    box-shadow: 0px 3px 3px 0px  #c0c0c0;
 }
 .left-side > .page-nav > li{
     padding-top: 9px;
@@ -112,6 +115,7 @@ header > .background-img {
 }
 .middle-side{
     width: 500px;
+    box-shadow: 0px 3px 3px 0px  #c0c0c0;
 }
 .data{
     opacity: 0.7;
@@ -169,6 +173,7 @@ header > .background-img {
     background: whitesmoke;
     padding: 20px;
     height: fit-content;
+    box-shadow: 0px 3px 3px 0px  #c0c0c0;
 }
 .right-side > .company-suggestion{
     padding-left: 30px;
